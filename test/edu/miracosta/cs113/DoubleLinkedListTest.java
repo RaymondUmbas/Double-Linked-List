@@ -250,7 +250,6 @@ public class DoubleLinkedListTest {
     public void testGetError() {
         // Attempt get on empty lists
         try {
-    
             stringList.get(0);
             fail("String list get() test should have thrown exception for out of bounds (empty list, index == 0)");
         } catch (IndexOutOfBoundsException ioobe) { /*Test Passed*/ }
